@@ -31,9 +31,8 @@ function threeSum(arr, target) {
     return result;
   }
   
+  let S = [-1, 2, 1, -4];
+  let target = 1;
+  console.log(threeSum(arr, target)); 
 
-
-// module.exports = threeSum;
-let S = [-1, 2, 1, -4];
-let target = 1;
-console.log(threeSum(S, target)); 
+module.exports = threeSum;
